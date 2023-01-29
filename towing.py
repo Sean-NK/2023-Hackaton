@@ -51,7 +51,7 @@ print(random_location)
 
 def call_ambulance(lat, lng):
     # API key for Google Maps Distance Matrix API
-    api_key = "AIzaSyBhWkYip650cJNOlOWUalhq3IBKitF96HE"
+    api_key = "*******************"
     # URL for the API call
     url = f"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins={lat},{lng}&destinations={random_location.raw['lat']},{random_location.raw['lon']}&key={api_key}"
     # Make the API call and get the response
