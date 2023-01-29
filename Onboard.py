@@ -18,7 +18,7 @@ print("*" * 40)
 
 # Function to get the latitude and longitude of an address
 def get_coordinates(address):
-    api_key = "AIzaSyBhWkYip650cJNOlOWUalhq3IBKitF96HE"
+    api_key = "***********************"
     url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={api_key}"
     response = requests.get(url).json()
     lat = response["results"][0]["geometry"]["location"]["lat"]
